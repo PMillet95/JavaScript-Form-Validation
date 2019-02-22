@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<!-- This code is the character set for the document and a viewport tag which helps resize in mobile devices-->
+
+<head>
+
+<title> Customer Information </title>
+
+<link rel="stylesheet" type="text/css" href="htmlbasicssheet.css">
+
+<script type="text/javascript" src="javascriptbasics.js"></script>
+
+</head>
+<!-- This code is what is displayed on the tab, a reference link to the css file and js file-->
+
+<body>
+
+<h1> Customer Information </h1>
+<!-- The heading of the webpage to let the user know where they are -->
+
+<p> Please enter your information below </p>
+
+<form> 
+<form name="customerinfo" onsubmit="return validateForm()" method="post">
+	<label for="firstname"> First Name: </label> <br>
+	<input type="text" name="firstname"> <br>
+	<label for="lastname"> Last Name: </label> <br>
+	<input type="text" name="lastname"> <br>
+	<label for"email"> E-mail: </label> <br>
+	<input type="email" name="email"> <br>
+	<input type="submit" value="Submit" onclick="alert('Thank You!')"> <br>
+</form>
+<!-- This code here defines the form for the customer to fill out, a submit button and once submitted a "thank you" message appears-->
+
+</body>
+
+</html>
+

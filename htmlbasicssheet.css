@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+	 background-color: magenta;
+     }
+	 
+h1 {
+	text-align: center; 
+	text-decoration: underline;
+	}
+/* This code styles all of the headings with the h1 tag on the html document */
+
+p {
+	text-align: center;
+	font-size: 30px;
+    }
+/* This code styles all paragraphs with the p tag on the html document */
+
+form {
+	text-align: center;
+	font-size: 25px;
+	}
+/* This code style all of the forms on the html document */
